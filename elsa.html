@@ -14,13 +14,30 @@
 
 <section class ="box">
     <h2>Visitor information</h2>
-    <form>
         Visitors must provide their first name, last name, and email.
         
         Both first name and last name fields are required and must contain only letters.
         The email field is required and must have a valid format (e.g., user@example.com).
         Show error messege texts for the visitor in case of any validation errors!
-    </form>
+
+        <form id = "name_form">
+            <br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <br>
+            <label for="name">email:</label><br>
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        
+        </form> 
+  
 </section>
 
 <main class = "box">
